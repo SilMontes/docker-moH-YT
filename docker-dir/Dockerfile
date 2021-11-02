@@ -11,3 +11,9 @@ COPY . /app
 #CMD node /app/app.js   -> if we do not use WORKDIR /app  in this case, we will have to use /app before the file name
 WORKDIR /app
 CMD node app.js
+
+
+# docker build -t docker-dir .
+
+# run linux :  docket run -it ubuntu   -it(interactive)
+
